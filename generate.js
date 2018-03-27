@@ -1,12 +1,12 @@
-var args = process.argv.slice(2);
-var fs = require("fs");
-var path = require("path");
-var nicecharacters = JSON.parse(fs.readFileSync(path.join(__dirname, "nc.json"), "UTF8"))
-var line1 = "";
-var line2 = "";
-var line3 = "";
-var line4 = "";
-var line5 = "";
+const args = process.argv.slice(2);
+const fs = require("fs");
+const path = require("path");
+const nicecharacters = JSON.parse(fs.readFileSync(path.join(__dirname, "nc.json"), "UTF8"))
+let line1 = "";
+let line2 = "";
+let line3 = "";
+let line4 = "";
+let line5 = "";
 function addChar(char) { 
     char = char.toUpperCase()
     if(nicecharacters[char]) {
