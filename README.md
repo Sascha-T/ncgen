@@ -1,2 +1,2 @@
-# ncgen
-Generates nice text.
+# Nice Character Gen
+Turns normal text into funky text.
