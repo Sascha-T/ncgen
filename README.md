@@ -1,0 +1,2 @@
+# ncgen
+Generates nice text.
